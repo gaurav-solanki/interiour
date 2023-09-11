@@ -1,0 +1,65 @@
+.sliderItem {
+	position: relative;
+
+	.sliderContent {
+		position: absolute;
+		inset: 0;
+		display: flex;
+		align-items: center;
+		color: #fff;
+		padding: 30px;
+
+		.mainTitle {
+			font-size: 34px;
+			font-weight: 700;
+			margin-bottom: 10px;
+
+			@media (max-width: 1024px) {
+				font-size: 18px;
+			}
+		}
+
+		.largeTitle {
+			font-size: 50px;
+			font-style: normal;
+			font-weight: 700;
+			margin-bottom: 10px;
+
+			@media (max-width: 1024px) {
+				font-size: 30px;
+			}
+		}
+		.context {
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 300;
+			margin-bottom: 10px;
+
+			@media (max-width: 1024px) {
+				font-size: 12px;
+			}
+		}
+
+		&.end {
+			align-items: flex-start;
+			justify-content: flex-end;
+
+			.mainTitle {
+				font-size: 30px;
+				font-weight: 500;
+			}
+		}
+		.exploreLink {
+			border-radius: 7px;
+			background: #a4550ae6;
+			padding: 10px 15px;
+			color: #fff;
+			text-decoration: none;
+			display: inline-block;
+
+			@media (max-width: 1024px) {
+				font-size: 12px;
+			}
+		}
+	}
+}

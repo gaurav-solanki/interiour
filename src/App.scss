@@ -1,0 +1,10 @@
+.mainWrapper {
+	display: flex;
+	min-height: 100vh;
+
+	.contentWrapper {
+		flex-grow: 1;
+		width: calc(100vw - 260px);
+		min-width: calc(100vw - 260px);
+	}
+}

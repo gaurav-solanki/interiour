@@ -1,0 +1,84 @@
+.specialWrapper {
+	padding: 20px 40px;
+	.title {
+		font-family: "Abel", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 16px;
+	}
+
+	.slick-slide {
+		padding-right: 30px;
+		&.slick-current {
+			padding-right: 30px;
+		}
+
+		@media (max-width: 1024px) {
+			padding-right: 0;
+			&.slick-current {
+				padding-right: 0;
+			}
+		}
+	}
+	.slick-next {
+		right: -21px;
+		background-color: #fff;
+		filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.25));
+		height: 42px;
+		width: 42px;
+		border-radius: 100%;
+
+		&::before {
+			content: " ";
+			background: url("../../assets/right-arrow.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 20px;
+			height: 20px;
+			width: 20px;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+
+		&.slick-disabled {
+			background-color: transparent;
+			&::before {
+				display: none;
+			}
+		}
+	}
+	.slick-prev {
+		right: -21px;
+		background-color: #fff;
+		filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.25));
+		height: 42px;
+		width: 42px;
+		border-radius: 100%;
+		z-index: 2;
+
+		&::before {
+			content: " ";
+			background: url("../../assets/right-arrow.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 20px;
+			height: 20px;
+			width: 20px;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			transform: rotate(180deg);
+		}
+		&.slick-disabled {
+			background-color: transparent;
+			&::before {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+.headerWrapper {
+	padding: 12px;
+
+	.headerContent {
+		display: flex;
+		padding: 16px 20px;
+		background-color: #f6f6f6;
+		align-items: center;
+
+		.homeLink {
+			color: #000;
+			font-family: "Abel", sans-serif;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			text-decoration: none;
+			border-radius: 5px;
+			border: 1px solid #000000b3;
+			background: #c7ffe752;
+			line-height: 28px;
+			padding: 0 15px;
+		}
+		.newLink {
+			color: #000;
+			font-family: "Abel", sans-serif;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			text-decoration: none;
+			line-height: 28px;
+			padding: 0px;
+		}
+
+		.seperator {
+			margin: 0 22px;
+			color: #00000040;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+		.searchWrapper {
+			flex-grow: 1;
+			padding: 0 40px;
+
+			.searchInput {
+				border-radius: 5px;
+				width: 100%;
+				max-width: 100%;
+				background: #fff;
+				border: 0;
+				padding: 12px;
+				color: #0000008a;
+				font-size: 14px;
+				font-weight: 400;
+			}
+		}
+
+		@media (max-width: 768px) {
+			flex-wrap: wrap;
+			.searchWrapper {
+				min-width: 100%;
+				margin: 10px 0;
+				padding: 0;
+			}
+			.navLinks {
+				margin-left: auto;
+			}
+		}
+	}
+}
