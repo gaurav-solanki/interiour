@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/interiour/static/css/main.70929484.css",
+    "main.js": "/interiour/static/js/main.654f0fdb.js",
+    "static/media/img_slider1.png": "/interiour/static/media/img_slider1.cc5a0038cf5616f2e82a.png",
+    "static/media/img_slider2.png": "/interiour/static/media/img_slider2.2e5421e7c1036a93b2d8.png",
+    "static/media/img_furniture4.png": "/interiour/static/media/img_furniture4.188c55e0e58f12c359b0.png",
+    "static/media/img_furniture3.png": "/interiour/static/media/img_furniture3.b21d3a42f613300c84e0.png",
+    "static/media/img_furniture1.png": "/interiour/static/media/img_furniture1.e1d439b2070a38a47c48.png",
+    "static/media/img_furniture2.png": "/interiour/static/media/img_furniture2.7bb2fa8f84d6ddbb8011.png",
+    "static/media/header_logo.svg": "/interiour/static/media/header_logo.106f9e5275f114271553f62425c9232f.svg",
+    "static/media/slick.svg": "/interiour/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/interiour/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/interiour/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/interiour/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/interiour/index.html",
+    "static/media/ic_bag.svg": "/interiour/static/media/ic_bag.261f203867b0af640d82e9e26366c79e.svg",
+    "static/media/ic_verified.svg": "/interiour/static/media/ic_verified.edcb36e65505133202635642a4a22348.svg",
+    "static/media/ic_bell.svg": "/interiour/static/media/ic_bell.c75a6f8a61dcb2edaff4b98321490a0e.svg",
+    "static/media/ic_login.svg": "/interiour/static/media/ic_login.e53a9d7c7ff8cc39f912c9351f3be065.svg",
+    "static/media/ic_filter.svg": "/interiour/static/media/ic_filter.3d13f3fec70b136d442bbe248035666b.svg",
+    "static/media/ic_dropdown.svg": "/interiour/static/media/ic_dropdown.828004b27b24a6d44440.svg",
+    "static/media/ic_up_arrow.svg": "/interiour/static/media/ic_up_arrow.086dbe64ff1bc96d2a49.svg",
+    "main.70929484.css.map": "/interiour/static/css/main.70929484.css.map",
+    "main.654f0fdb.js.map": "/interiour/static/js/main.654f0fdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70929484.css",
+    "static/js/main.654f0fdb.js"
+  ]
+}
